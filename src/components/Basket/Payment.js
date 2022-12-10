@@ -162,7 +162,7 @@ export default function Payment() {
                   prefix={"$"}
                 />
                 <button disabled={processing || disabled || succeded}>
-                  <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
+                  <span>{processing ? <p>Processing...</p> : "Buy Now"}</span>
                 </button>
               </div>
 
